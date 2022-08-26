@@ -1,4 +1,4 @@
-## django crud class 28
+## django crud class 29
 ## Author: 
 Brentice Loper
 ## Setup
@@ -7,4 +7,4 @@ Use python manage.py runserver to test the site deployment on your local machine
 You can use the links to navigate between pages. Try creating, updating, and deleting some snacks using the links!
 
 ## Tests
-Testing uses the built-in django testing framework.
+No tests required. Just style.
