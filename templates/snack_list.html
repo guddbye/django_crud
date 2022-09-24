@@ -1,5 +1,3 @@
-
-
 {% extends "base.html" %}
 
 {% block content %}
@@ -12,5 +10,5 @@
     </li>
     {% endfor %}
 </ul>
-
+<a href="{% url 'snack_create' %}">Create</a>
 {% endblock content %}
