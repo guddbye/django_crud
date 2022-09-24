@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Django Snacks</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Snacks CRUD</title>
     </head>
-    <body>
-        <header>
-            <nav>
-                <a href="{% url 'snack_list' %}">Snacks List</a>
-            </nav>
+    <body class="bg-gray-500 text-gray-800">
+        <header class="my-1">
+            <a href="{% url 'snack_list' %}" class="text-lg ml-2 px-1 bg-gray-400 underline">Home</a>
+
         </header>
         <main>
             {% block content %}
